@@ -1,0 +1,59 @@
+ *{
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+  }
+
+.imageHeader{
+   background-size: cover;
+   background-position: top;
+   width: 1349px;
+   height: 720px;
+   
+}
+
+.titulo{
+   position: relative;
+   text-align: left;
+   top: 70px;
+   font-size: 350%;
+}
+
+.logo{
+   margin-left: 1100px;
+   margin-top: -120px;
+   position: relative;
+       
+}
+
+
+header h2{
+   background-color: black;
+   background-size: 100px;
+   color:white;
+   font-size: 30px;
+   text-align: center;
+   margin-top: -50px;
+
+
+}
+
+
+
+.itemNav{
+   margin: 2%;
+   display: block;
+   padding-top: 2%;
+   padding-bottom: 5%;
+   color: blue;
+}
+
+.detalles{
+   margin-left: 400px;
+   margin-top: -300px;
+   font-size: x-large;
+ 
+}
+
+

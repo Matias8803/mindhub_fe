@@ -1,0 +1,20 @@
+.caja{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;      
+ }
+
+ a:hover{
+    color:blueviolet;
+ }
+
+ .img{
+   -webkit-box-shadow:inset 200px #5c5c5c;
+-moz-box-shadow:inset 200px #5c5c5c;
+box-shadow:inset 200px #5c5c5c
+ }
