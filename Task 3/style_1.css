@@ -1,0 +1,183 @@
+ *{
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 0px;
+      padding: 0px;
+      box-sizing: border-box;
+  }
+
+.contenidoHeader{
+  background-image: url(./Assets/img/design1_image1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  display: flex;
+  justify-content: space-between; 
+  flex-wrap: wrap;
+}
+
+h1{
+  font-size: 350%;
+  align-self: flex-start;
+  text-shadow: -2px -2px 2px #aaa;
+}
+
+.logo{
+  align-self: flex-end;
+}
+
+h2{
+   background-color: black;
+   color:white;
+   font-size: 40px;
+   text-align: center;
+   text-shadow: 7px 4px 5px blue;
+
+}
+
+
+.itemNav{
+  background-color: blue; 
+  border: 2px solid black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+ 
+}
+
+.itemNav:hover{
+  background-color: #4CAF50; /* Green */
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.main{
+  font-size: x-large;
+  display: flex;
+  justify-content: center;
+  padding: 20px 32px;
+
+}
+
+.fecha{
+  padding: 20px;
+  font-size: 35px;
+}
+
+.about{
+  padding: 20px;
+}
+
+.schedule{
+  padding:5px;
+}
+
+.detalles{
+padding: 40px;
+}
+
+table{
+  padding: 30px;
+  border-collapse: collapse;
+  border-radius: 50px;
+  border-spacing:  30px;
+  table-layout: fixed;
+  display: flex;
+  justify-content: center;
+}
+ 
+th, td {
+  width: 25%;
+  text-align: left;
+  vertical-align: top;
+  border: 2px solid #000;
+  border-collapse: collapse;
+  padding: 0.3em;
+}
+
+.dataInfo{
+  padding: 5px;
+  
+}
+
+.titulo{
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+
+.ideal{
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.subtitulo{
+  padding: 10px;
+}
+
+
+.regla{
+  padding: 40px;
+  display: flex;
+  list-style-position: inside;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.juego{
+  padding: 40px, 10px;
+  display: flex;
+  justify-content:flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+li{
+padding: 10px;
+}
+
+
+footer{
+  padding: 15px 32px;
+}
+
+.copy{
+  height: 4%;
+  width: 4%;
+}
+
+.rules{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.item{
+  background-color: blue; 
+  border: 2px solid black;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+}
+
+.item:hover{
+  background-color: #4CAF50; /* Green */
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
