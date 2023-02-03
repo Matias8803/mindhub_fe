@@ -125,7 +125,7 @@ th, td {
 
 
 .regla{
-  padding: 40px;
+  padding: 0px;
   display: flex;
   list-style-position: inside;
   flex-direction: column;
@@ -133,7 +133,7 @@ th, td {
 }
 
 .juego{
-  padding: 40px, 10px;
+  padding: 40px;
   display: flex;
   justify-content:flex-start;
   flex-direction: column;
